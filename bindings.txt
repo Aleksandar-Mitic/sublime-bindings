@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["alt+a"], "command": "alignment" },
+	{ "keys": ["ctrl+alt+u"], "command": "sftp_sync_up" },
+    { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
+    
+    // PHP Companion
+    { "keys": ["alt+e"], "command": "expand_fqcn" },
+    { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+    { "keys": ["alt+u"], "command": "find_use" },
+    { "keys": ["alt+n"], "command": "import_namespace" },
+    { "keys": ["alt+i"], "command": "implement" },
+    { "keys": ["shift+f12"], "command": "goto_definition_scope" },
+    { "keys": ["alt+c"], "command": "insert_php_constructor_property" },
+]
